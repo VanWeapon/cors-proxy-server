@@ -1,14 +1,17 @@
 {
-  "name": "cors-proxy-server",
-  "version": "1.0.0",
-  "main": "app.js",
-  "repository": "https://github.com/VanWeapon/cors-proxy-server.git",
-  "author": "Luke Van Epen",
-  "license": "MIT",
-  "private": false,
-  "dependencies": {
-    "cors": "^2.8.5",
-    "cors-anywhere": "^0.4.4",
-    "express": "^4.17.1"
-  }
+	"name": "cors-proxy-server",
+	"version": "1.0.0",
+	"main": "app.js",
+	"repository": "https://github.com/VanWeapon/cors-proxy-server.git",
+	"author": "Luke Van Epen",
+	"license": "MIT",
+	"private": false,
+	"scripts": {
+		"start": "node app"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"cors-anywhere": "^0.4.4",
+		"express": "^4.17.1"
+	}
 }
